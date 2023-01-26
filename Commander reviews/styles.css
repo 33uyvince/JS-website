@@ -1,0 +1,20 @@
+.underline {
+    height: 0.25rem;
+    width: 5rem;
+    background: var(--clr-primary-5);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 80vw;
+    max-width: var(--fixed-width);
+}
+
+.img-container {
+    /* a */
+}
+
+#pic-img {
+    width: 120px;
+    height: 150px;
+}
