@@ -133,9 +133,9 @@ li {
     .nav-header {
         padding: 0;
     }
-    .nav-toggle {
+    /* .nav-toggle {
         display: none;
-    }
+    } */
     .links {
         height: auto;
         display: flex;
