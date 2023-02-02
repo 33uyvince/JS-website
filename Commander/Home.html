@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Home.css" />
+        <!-- font-awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+    </head>
+
+    <!-- NAV BAR -->
+    <nav>
+        <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+                <img src="images/logo.png" class="logo" alt="logo" />
+            </div>
+            <!-- LINKS -->
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lifecounter.html">Life Counter</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+            </ul>
+            <!-- social media -->
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-sketch"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- END OF LINKS -->
+            <!-- <button class="nav-toggle"><i class="fas fa-bars"></i></button> -->
+        </div>
+    </nav>
+    <!-- END OF NAV BAR -->
+
+    <body>
+        <section class="container">
+            <h2>Need suggestions for your next commander?</h2>
+            <div class="underline"></div>
+        </section>
+
+        <article class="review">
+            <div class="img-container">
+                <img id="pic-img" alt="commander pic" />
+            </div>
+            <h4 id="commander-name"></h4>
+            <p id="specialty"></p>
+            <p id="text"></p>
+            <div class="button-container">
+                <button class="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="rnd-btn-container">
+                <button class="random-btn">random</button>
+            </div>
+        </article>
+        <script src="Home.js"></script>
+    </body>
+</html>
