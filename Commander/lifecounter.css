@@ -2,8 +2,7 @@
     --main-bg-color: hsl(35, 52%, 87%);
     --font-family: arial;
     --transition: all 0.3s linear;
-    --clr-primary-1: hsl(205, 86%, 17%);
-    --clr-primary-5: hsl(205, 78%, 60%);
+    --clr-darkblue: hsl(205, 78%, 60%);
     --spacing: 0.1rem;
     --clr-white: hsl(0, 0%, 100%);
     --nav-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -85,8 +84,7 @@ li {
     text-decoration: none;
 }
 .links a:hover {
-    background: var(--clr-primary-8);
-    color: var(--clr-primary-5);
+    color: var(--clr-darkblue);
 }
 
 @media screen and (min-width: 800px) {
