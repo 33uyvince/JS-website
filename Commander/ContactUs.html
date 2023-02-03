@@ -4,7 +4,7 @@
         <title>Home</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="Home.css" />
+        <link rel="stylesheet" href="ContactUs.css" />
         <!-- font-awesome -->
         <link
             rel="stylesheet"
@@ -24,7 +24,7 @@
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="lifecounter.html">Life Counter</a></li>
                 <li><a href="FAQS.html">FAQs</a></li>
-                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="index.html">Contact Us</a></li>
             </ul>
             <!-- social media -->
             <ul class="social-icons">
@@ -61,30 +61,31 @@
     <!-- END OF NAV BAR -->
 
     <body>
-        <section class="container">
-            <h2>Need suggestions for your next commander?</h2>
-            <div class="underline"></div>
-        </section>
+        <section class="center">
+            <h1>send us a message</h1>
+            <h4>Feel free to leave any thoughts you might have</h4>
 
-        <article class="review">
-            <div class="img-container">
-                <img id="pic-img" alt="commander pic" />
+            <div class="name">
+                <p>Enter your name or nickname:</p>
+                <input type="text" placeholder="Type here" class="input-bar" />
             </div>
-            <h4 id="commander-name"></h4>
-            <p id="specialty"></p>
-            <p id="text"></p>
-            <div class="button-container">
-                <button class="prev-btn">
-                    <i class="fas fa-chevron-left"></i>
-                </button>
-                <button class="next-btn">
-                    <i class="fas fa-chevron-right"></i>
-                </button>
+            <div class="name">
+                <p>General topic or concern</p>
+                <input type="text" placeholder="Type here" class="input-bar" />
             </div>
-            <div class="rnd-btn-container">
-                <button class="random-btn">random</button>
+            <div class="name">
+                <p>Message</p>
+                <textarea
+                    class="textarea"
+                    rows="3"
+                    cols="30"
+                    placeholder="I appreciate your efforts"
+                ></textarea>
             </div>
-        </article>
-        <script src="Home.js"></script>
+            <div class="submit-btn">
+                <button>submit</button>
+            </div>
+        </section>
+        <script src="ContactUs.js"></script>
     </body>
 </html>
