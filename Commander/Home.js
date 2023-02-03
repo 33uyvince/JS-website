@@ -2,7 +2,7 @@ const reviews = [
     {
         id: 1,
         name: "Ruric Thar, the Unbowed",
-        specialty: "Smash Blue",
+        specialty: "Burn noncreature spells",
         img: "images/ruricthar.png",
         text: "Vigilance, Reach. Ruric Thar attacks each combait if able. Whenever a player casts a noncreature spell, Ruric deals 6 damage to that player",
     },
