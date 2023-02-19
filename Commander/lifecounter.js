@@ -13,7 +13,8 @@ const defaultNumber = 40;
 
 const scoreboards = document.getElementsByClassName("scoreboard");
 
-for (const scoreboard of scoreboards) {
+for (let x = 0; x < scoreboards.length; x++) {
+    const scoreboard = scoreboards[x];
     const lifeTotal = scoreboard.children[0];
     const btnPlus = scoreboard.children[1];
     const btnMinus = scoreboard.children[2];
