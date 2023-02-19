@@ -16,11 +16,13 @@ questions.forEach(function (question) {
     const btn = question.querySelector(".question-btn");
     //console.log(btn)
     btn.addEventListener("click", function () {
-        questions.forEach(function (item) {
-            if (item !== question) {
-                item.classList.remove("show-answers");
-            }
-        });
+        for (let x = 0; x < questions.length; x++) {
+            const item = questions[x];
+            item.classList.remove("show-answers");
+        }
+        // questions.forEach(function (item) {
+        //     item.classList.remove("show-answers");
+        // });
 
         question.classList.toggle("show-answers");
     });
